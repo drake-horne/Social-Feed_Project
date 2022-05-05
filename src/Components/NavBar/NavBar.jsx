@@ -1,11 +1,11 @@
-const NavBar = (props) => {
-    return(
-        <div className="App">
-            <heading style={{color: 'green', 'backround-color':"gray", 'font-size':"40px", align :"center"}}>Welcome to SnapGram!
-                            
-            </heading>
+import React from "react";
+import './NavBar.css'
 
-        </div>
+const NavBar= (props) => {
+    return(
+        <nav className="navbar">
+            <a className="text" href="#home"><h1 style={{margin: '20px'}}>Snap<big className="text-green">Gram</big></h1></a>
+        </nav>
     )
 }
-export default NavBar;
+export default NavBar

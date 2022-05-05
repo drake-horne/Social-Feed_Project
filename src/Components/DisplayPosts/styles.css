@@ -1,12 +1,18 @@
-td {
+.row {
     
   font-size:large;
  
   border: solid;
   border-style: groove;
   border-color: black;
-  align-items: center;
+  background-color: lightgray;
   border-width:thin;
   padding:10px;
+
+}
+
+.name {
+    font-style: bold;
+    
 
 }
